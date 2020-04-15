@@ -1,0 +1,14 @@
+input[type=radio] {
+  display: none; }
+  input[type=radio] + label {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-right: 12px;
+    border-radius: 4px;
+    background-color: #e7e7e7;
+    border-color: #ddd;
+    letter-spacing: .3px; }
+  input[type=radio]:checked + label {
+    background-image: none;
+    background-color: #666;
+    color: #fff; }
