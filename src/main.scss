@@ -6,7 +6,7 @@ input[type=checkbox].radio {
 }
 
 .inputcontainer {
-    &+label {
+    &+label.radio {
         @extend .btn;
         @extend .btn-primary;
     }
