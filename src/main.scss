@@ -1,0 +1,11 @@
+@use 'framework.min';
+
+
+input[type=checkbox].radio {
+    display: none;
+
+    &+ label {
+        @extend .btn;
+        @extend .btn-primary;
+    }
+}

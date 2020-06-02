@@ -2,16 +2,14 @@
   "name": "dynamic-forms-styles",
   "version": "1.0.0",
   "description": "Stylesheets to load into various Dynamic Forms",
-  "main": "main.scss",
+  "main": "src/main.scss",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Mike W. Leavitt",
   "license": "ISC",
   "devDependencies": {
-    "compile-sass": "^1.1.0",
-    "node-sass": "^4.13.1",
-    "webpack": "^4.42.1",
-    "webpack-cli": "^3.3.11"
+    "sass": "^1.26.7",
+    "ucf-athena-framework": "^1.0.8"
   }
 }
