@@ -5,8 +5,8 @@ input[type=checkbox].radio {
     display: none;
 }
 
-.inputcontainer {
-    &+label.radio {
+.inputcontainer:has(input[type=checkbox].radio) {
+    &+label {
         @extend .btn;
         @extend .btn-primary;
     }
