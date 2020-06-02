@@ -3,8 +3,10 @@
 
 input[type=checkbox].radio {
     display: none;
+}
 
-    &+ label {
+.inputcontainer {
+    &+label {
         @extend .btn;
         @extend .btn-primary;
     }
