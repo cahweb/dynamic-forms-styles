@@ -4,7 +4,8 @@
   "description": "Stylesheets to load into various Dynamic Forms",
   "main": "src/main.scss",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "sass src/main.scss dist/base.css"
   },
   "author": "Mike W. Leavitt",
   "license": "ISC",
