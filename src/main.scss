@@ -1,12 +1,11 @@
 @use 'framework.min';
 
+.radio-container {
+    input[type=checkbox] {
+        display: none;
+    }
 
-input[type=checkbox].radio {
-    display: none;
-}
-
-.inputcontainer:has(input[type=checkbox].radio) {
-    &+label {
+    label {
         @extend .btn;
         @extend .btn-primary;
     }
