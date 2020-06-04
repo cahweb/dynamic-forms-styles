@@ -12,5 +12,6 @@
 }
 
 table:not(.radio-container) td {
+    @extend body;
     @extend p;
 }
