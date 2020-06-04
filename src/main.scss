@@ -5,7 +5,7 @@
         display: none;
     }
 
-    .inputcontainer + label {
+    .inputcontainer ~ label {
         @extend .btn;
         @extend .btn-primary;
     }
