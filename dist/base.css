@@ -258,7 +258,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 0.5rem;
 }
 
-p {
+p, table:not(.radio-container) td {
   margin-top: 0;
   margin-bottom: 1rem;
 }
@@ -17312,7 +17312,7 @@ a.text-metallic-lightest:focus, a.text-metallic-lightest:hover {
     page-break-inside: avoid;
   }
 
-  h2, h3, p {
+  h2, h3, p, table:not(.radio-container) td {
     orphans: 3;
     widows: 3;
   }

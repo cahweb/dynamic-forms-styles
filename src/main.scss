@@ -10,3 +10,7 @@
         @extend .btn-primary;
     }
 }
+
+table:not(.radio-container) td {
+    @extend p;
+}
