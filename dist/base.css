@@ -2995,7 +2995,7 @@ a.btn.disabled, fieldset[disabled] a.btn {
   border-radius: 0;
 }
 
-.btn-group-sm > .btn, .radio-container .btn-group-sm > .inputcontainer ~ label, .btn-sm {
+.btn-group-sm > .btn, .radio-container .btn-group-sm > .inputcontainer ~ label, .btn-sm, .radio-container .inputcontainer ~ label {
   padding: 0.25rem 0.5rem;
   font-size: 0.875rem;
   border-radius: 0;
@@ -3262,7 +3262,7 @@ tbody.collapse.show {
   margin-left: 0;
 }
 
-.btn-group-sm > .btn + .dropdown-toggle-split, .radio-container .btn-group-sm > .inputcontainer ~ label + .dropdown-toggle-split, .btn-sm + .dropdown-toggle-split {
+.btn-group-sm > .btn + .dropdown-toggle-split, .btn-sm + .dropdown-toggle-split, .radio-container .inputcontainer ~ label + .dropdown-toggle-split {
   padding-right: 0.375rem;
   padding-left: 0.375rem;
 }
@@ -10132,7 +10132,7 @@ select.form-control:not([size]):not([multiple]) {
   color: initial;
 }
 
-.btn-default.btn-sm, .btn-group-sm > .btn-default.btn, .radio-container .btn-group-sm > .inputcontainer ~ label.btn-default {
+.btn-default.btn-sm, .radio-container .inputcontainer ~ label.btn-default, .btn-group-sm > .btn-default.btn, .radio-container .btn-group-sm > .inputcontainer ~ label.btn-default {
   padding: calc(.25rem + 2px) calc(.5rem + 2px);
 }
 
@@ -10897,12 +10897,12 @@ select.form-control:not([size]):not([multiple]) {
     font-size: 1.25rem;
   }
 }
-.btn-group-sm > .btn, .radio-container .btn-group-sm > .inputcontainer ~ label, .btn-sm {
+.btn-group-sm > .btn, .radio-container .btn-group-sm > .inputcontainer ~ label, .btn-sm, .radio-container .inputcontainer ~ label {
   font-size: 0.76562rem;
 }
 
 @media (min-width: 768px) {
-  .btn-group-sm > .btn, .radio-container .btn-group-sm > .inputcontainer ~ label, .btn-sm {
+  .btn-group-sm > .btn, .radio-container .btn-group-sm > .inputcontainer ~ label, .btn-sm, .radio-container .inputcontainer ~ label {
     font-size: 0.875rem;
   }
 }
